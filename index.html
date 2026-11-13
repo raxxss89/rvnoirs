@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vela One | Glass and titanium</title>
+<meta name="description" content="Vela One is a titanium phone with a ceramic glass front. From $999.">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="bar" aria-label="Main">
+  <div class="bar-in">
+    <a href="#top" class="mark">Vela</a>
+    <a href="#design">Design</a>
+    <a href="#features">Features</a>
+    <a href="#specs">Specs</a>
+    <a href="#buy" class="bar-buy">Buy</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- HERO: dark stage with mirror floor -->
+  <section class="hero">
+    <h1 class="chrome">Vela One</h1>
+    <p class="sub">Titanium. Ceramic glass. Nothing in between.</p>
+    <div class="actions">
+      <a class="pill" href="#buy">Buy</a>
+      <a class="textlink" href="#design">Learn more</a>
+    </div>
+
+    <div class="stage" id="stage">
+      <div class="rig" id="rig">
+        <div class="device" id="device">
+          <div class="screen">
+            <div class="island"></div>
+            <div class="clock"><small class="d">Friday</small><b class="t">9:41</b></div>
+            <div class="widgets"><i></i><i></i></div>
+          </div>
+          <div class="gloss"></div>
+        </div>
+        <!-- mirror copy is created by js/main.js -->
+      </div>
+      <div class="floor"></div>
+    </div>
+
+    <div class="swatches" role="group" aria-label="Choose a finish">
+      <button class="sw" data-finish="natural" aria-pressed="true" aria-label="Natural titanium"></button>
+      <button class="sw" data-finish="black" aria-pressed="false" aria-label="Black titanium"></button>
+      <button class="sw" data-finish="sand" aria-pressed="false" aria-label="Desert titanium"></button>
+      <button class="sw" data-finish="blue" aria-pressed="false" aria-label="Blue titanium"></button>
+    </div>
+    <p class="finish-name" id="finishName">Natural titanium</p>
+  </section>
+
+  <!-- STATEMENT -->
+  <section class="statement" id="design">
+    <p>Ceramic glass, ground flat and polished until the display and the frame read as one surface. Then wrapped in grade 5 titanium that weighs less than steel and feels like a single piece of metal.</p>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <h2>Made to be held.</h2>
+    <div class="grid">
+
+      <article class="tile t-display">
+        <div class="shine"></div>
+        <h3>Pure black. Pure light.</h3>
+        <p>A 6.3-inch OLED with a peak of 2,000 nits, covered by ceramic glass that resists scratches far better than ordinary glass.</p>
+        <b class="big">2,000 nits</b>
+      </article>
+
+      <article class="tile t-battery">
+        <div class="shine"></div>
+        <h3>Two days.</h3>
+        <p>Charge to 50% in 20 minutes with a 30W cable.</p>
+        <b class="big dark">48 hr</b>
+      </article>
+
+      <article class="tile t-camera">
+        <div class="shine"></div>
+        <svg class="lens" viewBox="0 0 200 200" aria-hidden="true">
+          <defs>
+            <radialGradient id="ring" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#f4f4f6"/><stop offset=".5" stop-color="#8d8d93"/><stop offset="1" stop-color="#2a2a2e"/></radialGradient>
+            <radialGradient id="glass" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#1b1f4a"/><stop offset=".6" stop-color="#07071a"/><stop offset="1" stop-color="#000"/></radialGradient>
+            <radialGradient id="iris" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#7d5cff" stop-opacity=".9"/><stop offset="1" stop-color="#5ac8fa" stop-opacity="0"/></radialGradient>
+          </defs>
+          <circle cx="100" cy="100" r="96" fill="url(#ring)"/>
+          <circle cx="100" cy="100" r="80" fill="#0a0a0c"/>
+          <circle cx="100" cy="100" r="72" fill="url(#glass)"/>
+          <circle cx="100" cy="100" r="40" fill="url(#iris)"/>
+          <circle cx="100" cy="100" r="16" fill="#000"/>
+          <ellipse cx="72" cy="66" rx="30" ry="14" fill="#fff" opacity=".35" transform="rotate(-35 72 66)"/>
+          <circle cx="128" cy="134" r="5" fill="#fff" opacity=".5"/>
+        </svg>
+        <h3>48MP, and a lens worth looking at.</h3>
+        <p>Sapphire-coated glass keeps flare down and detail up.</p>
+      </article>
+
+      <article class="tile t-chip">
+        <div class="shine"></div>
+        <h3>The V1 chip.</h3>
+        <p>Built on 3nm. Fast when you need it, cool when you don't.</p>
+        <b class="big dark">V1</b>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SPECS -->
+  <section class="specs" id="specs">
+    <h2>The details.</h2>
+    <dl>
+      <div><dt>Display</dt><dd>6.3-inch OLED, 120Hz, 2,000 nits peak</dd></div>
+      <div><dt>Chip</dt><dd>Vela V1, 3nm</dd></div>
+      <div><dt>Cameras</dt><dd>48MP main, 12MP ultra wide, 12MP front</dd></div>
+      <div><dt>Battery</dt><dd>Up to 48 hours</dd></div>
+      <div><dt>Frame</dt><dd>Grade 5 titanium</dd></div>
+      <div><dt>Weight</dt><dd>187 g</dd></div>
+      <div><dt>Storage</dt><dd>256 GB, 512 GB, 1 TB</dd></div>
+    </dl>
+  </section>
+
+  <!-- BUY -->
+  <section class="buy" id="buy">
+    <h2 class="chrome">From $999.</h2>
+    <p class="sub">Free engraving. Free delivery. 14 days to change your mind.</p>
+    <div class="actions"><a class="pill" href="#top">Buy Vela One</a></div>
+  </section>
+</main>
+
+<footer>
+  <p>Vela is a sample brand used in this theme. Replace it with your own name, prices and product details.</p>
+  <p>&copy; 2026 Vela</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

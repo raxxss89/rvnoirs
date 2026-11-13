@@ -1,0 +1,14 @@
+VELA GLASS THEME: LICENSE
+
+You may use this theme to build websites for yourself or for your clients,
+and you may modify it freely.
+
+You may NOT resell, redistribute, or share the theme files (original or
+modified) as a template, theme or kit, on any marketplace or for free.
+
+The sample brand "Vela" is fictional. Replace it with your own.
+
+The theme loads fonts from Google Fonts, which are licensed separately under
+the SIL Open Font License.
+
+Provided as is, without warranty.
